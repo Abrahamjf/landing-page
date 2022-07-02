@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar} from "./Navbar.js";
 import {Jumbotron} from "./Jumbotron.js";
-import {Card} from "./Card.js";
+import {Cards} from "./Card.js";
 
 //create your first component
 export const Home = () => {
@@ -9,8 +9,7 @@ export const Home = () => {
 		<React.Fragment>
 			<Navbar />
 			<Jumbotron />
-			<Card />
-			<Footer />
+			<Cards />
 		</React.Fragment>
 	);
 };
